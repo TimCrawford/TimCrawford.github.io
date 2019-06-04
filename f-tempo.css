@@ -1,7 +1,7 @@
 .big_display {
 
   color: red;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 500;
   line-height: 1.6;
   background-color:transparent;
@@ -12,10 +12,14 @@ body {
   font-size: 1.2em;
   font-weight: 300;
   line-height: 1.6; 
+  min-height: calc(100% - 70px);
 }
 .logos {
+/*  
   position:relative;
-  align: bottom;
+  align: bottom; 
+*/
+  height:140px;
 }
 .body_image {  
   background-image: url('./background1_pale.png');
@@ -35,13 +39,15 @@ body {
   background-color: transparent;
   z-index: -1;
   cursor: pointer;
+  flex: 1 0 auto;
+
 }
 
 .basic_text {
 	position: fixed ;
 	top: 150px;
 	left: 600px;
-	font-size: 1.2em; 
+	font-size: 1em; 
 }
 
 .accordionItem h2 { 
@@ -63,7 +69,7 @@ body {
 	padding: 1em 0.4em; 
 	background-color: #eef; 
 	border-bottom: 1px solid #66d; 
-	width: 60%; 
+	width: calc(60% - 120px); 
 }
 .accordionItem.hide h2 { 
 	color: #000; 
@@ -78,4 +84,6 @@ body {
 }
 #accordion {
 	float:left;
+	flex: 1 0 auto;
+
 }
