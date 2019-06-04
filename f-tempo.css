@@ -9,9 +9,13 @@
 
 body {
   font-family: 'Georgia', serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 300;
   line-height: 1.6; 
+}
+.logos {
+  position:relative;
+  align: bottom;
 }
 .body_image {  
   background-image: url('./background1_pale.png');
@@ -36,7 +40,7 @@ body {
 .basic_text {
 	position: fixed ;
 	top: 150px;
-	left: 20%;
+	left: 600px;
 	font-size: 1.2em; 
 }
 
