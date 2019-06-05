@@ -9,7 +9,7 @@
   padding:0;
 
 }
-.big_container .big_display {
+.big_container .big_display /* .logos */ {
   position: relative; 
   max-width: 100%; /* Maximum width */
   margin: 0,0; /* Center it */
@@ -28,6 +28,8 @@ body {
   align: bottom; 
 */
   height:140px;
+  background: rgba(256, 256, 256, 0.8); 
+  padding:20px;
 }
 .body_image {  
   background-image: url('./background1_pale.png');
@@ -41,7 +43,7 @@ body {
   width: 100%;
   height: 100%;
   top: 20px;
-  left: 300px;
+  left: 30px;
   right: 0;
   bottom: 0;
   background-color: transparent;
@@ -93,5 +95,9 @@ body {
 #accordion {
 	float:left;
 	flex: 1 0 auto;
-
+}
+.accordion_block {
+	background: rgba(256, 256, 256, 0.8); 
+	width: 250px;
+	padding:20px;
 }
